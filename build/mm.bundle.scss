@@ -1838,7 +1838,6 @@ $bar-side-menu-text-color: $bar-content-text !default;
 .mm-site_mm_user-profile .mm-tab-handlers {
     padding-bottom: 16px;
 }
-
 .mm-site_frontpage {
     .mma-frontpage-item-container .item-media {
         min-height: 55px;
@@ -1862,9 +1861,7 @@ $bar-side-menu-text-color: $bar-content-text !default;
         }
     }
 }
-.mm-site_coursesgrades .item .badge {
-  right: 16px;
-}
+
 $mma-messages-date-badge: "stable" !default;
 
 // The date displayed in the list.
@@ -1961,6 +1958,9 @@ $mma-messages-date-badge: "stable" !default;
   text-align: center;
 }
 
+.mm-site_coursesgrades .item .badge {
+  right: 16px;
+}
 
 $mma-mod-assign-warning-color:      #c00 !default;
 
@@ -2230,27 +2230,6 @@ p.mma-mod-assign-warning {
   }
 }
 
-.mm-site_mod_choice {
-  .chart {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-
-  @media (min-width: 767px) {
-    .col {
-      border-left: $item-border-width solid $item-default-border;
-
-      &.item, .chart-item {
-        margin-top: 0;
-        border-top: 0;
-      }
-
-      &:first-child {
-        border-left: 0;
-      }
-    }
-  }
-}
 $mma-chat-notice-badge: "stable" !default;
 
 // The notice displayed in the list.
@@ -2294,6 +2273,27 @@ $mma-chat-notice-badge: "stable" !default;
 
     .tabs {
       border: 0;
+    }
+  }
+}
+.mm-site_mod_choice {
+  .chart {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 767px) {
+    .col {
+      border-left: $item-border-width solid $item-default-border;
+
+      &.item, .chart-item {
+        margin-top: 0;
+        border-top: 0;
+      }
+
+      &:first-child {
+        border-left: 0;
+      }
     }
   }
 }
@@ -2452,6 +2452,55 @@ p.mma-mod-quiz-warning {
   }
 }
 
+
+$mma-mod-scorm-level-margin:		25px !default;
+$mma-mod-scorm-warning-color:		#c00 !default;
+
+@for $i from 0 through 15 {
+  .mma-scorm-level-#{$i} {
+    padding-left: $item-padding + 15px * $i
+  }
+}
+
+.mma-mod-scorm-checkbox-padding {
+  padding: 5px 10px;
+}
+
+.mma-mod-scorm-warning {
+  color: $mma-mod-scorm-warning-color;
+}
+
+ion-popover-view {
+  /* Adapt popover to content's height. The popover's ion-content needs to disable Ionic scroll. */
+  &.mma-scorm-popover {
+    height: auto;
+    max-height: 80%;
+    overflow: scroll;
+
+    ion-content {
+      position: relative;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    p.padding {
+      margin: 0px; /* Don't add margins to p with padding inside the TOC. */
+    }
+  }
+
+  /* Decrease items padding in popover. */
+  .mma-scorm-popover-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/* Fix popover styles in iOS. */
+.platform-ios ion-popover-view.mma-scorm-popover {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .mma-mod_survey-darkbg {
   background-color: $item-divider-bg;
 }
@@ -2530,55 +2579,6 @@ $mma-mod-wiki-subwiki-selected-background-color:   #eee !default;
 
 .mma-mod_wiki-subwiki-picker .item.item-selected .icon {
   font-size: 24px;
-}
-
-
-$mma-mod-scorm-level-margin:		25px !default;
-$mma-mod-scorm-warning-color:		#c00 !default;
-
-@for $i from 0 through 15 {
-  .mma-scorm-level-#{$i} {
-    padding-left: $item-padding + 15px * $i
-  }
-}
-
-.mma-mod-scorm-checkbox-padding {
-  padding: 5px 10px;
-}
-
-.mma-mod-scorm-warning {
-  color: $mma-mod-scorm-warning-color;
-}
-
-ion-popover-view {
-  /* Adapt popover to content's height. The popover's ion-content needs to disable Ionic scroll. */
-  &.mma-scorm-popover {
-    height: auto;
-    max-height: 80%;
-    overflow: scroll;
-
-    ion-content {
-      position: relative;
-    }
-    &::-webkit-scrollbar {
-      display: none;
-    }
-    p.padding {
-      margin: 0px; /* Don't add margins to p with padding inside the TOC. */
-    }
-  }
-
-  /* Decrease items padding in popover. */
-  .mma-scorm-popover-item {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-/* Fix popover styles in iOS. */
-.platform-ios ion-popover-view.mma-scorm-popover {
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 
@@ -2923,19 +2923,6 @@ $mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
 
 
 
-// Style match content a bit.
-.mma-qtype-match-container .item-select {
-  select,
-  .mm-select-fix {
-    padding: 0 36px 0 0;
-    max-width: 100%;
-    display: flex;
-    justify-content:center;
-    align-content:center;
-    flex-direction:column;
-  }
-}
-
 // Style gapselect content a bit. All these styles are copied from Moodle.
 .mma-qtype-gapselect-container {
   p {
@@ -2955,6 +2942,19 @@ $mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
   }
 }
 
+
+// Style match content a bit.
+.mma-qtype-match-container .item-select {
+  select,
+  .mm-select-fix {
+    padding: 0 36px 0 0;
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+}
 
 // Style multianswer content a bit. All these styles are copied from Moodle.
 .mma-qtype-multianswer-container {
