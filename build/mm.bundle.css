@@ -7147,9 +7147,9 @@ progress {
  * --------------------------------------------------
  */
 .button {
-  border-color: #387ef5;
+  border-color: #00a5d2;
   background-color: white;
-  color: #387ef5;
+  color: #00a5d2;
   position: relative;
   display: inline-block;
   margin: 0;
@@ -7166,11 +7166,11 @@ progress {
   line-height: 42px;
   cursor: pointer; }
   .button:hover {
-    color: #387ef5;
+    color: #00a5d2;
     text-decoration: none; }
   .button.active, .button.activated {
-    border-color: #387ef5;
-    background-color: #387ef5; }
+    border-color: #00a5d2;
+    background-color: #00a5d2; }
   .button:after {
     position: absolute;
     top: -6px;
@@ -7200,14 +7200,14 @@ progress {
     margin-top: 10px;
     margin-bottom: 10px; }
   .button.button-light {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #fff;
     color: #444; }
     .button.button-light:hover {
       color: #444;
       text-decoration: none; }
     .button.button-light.active, .button.button-light.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #fafafa; }
     .button.button-light.button-clear {
       border-color: transparent;
@@ -7226,14 +7226,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-stable {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #f5f5f5;
     color: #444; }
     .button.button-stable:hover {
       color: #444;
       text-decoration: none; }
     .button.button-stable.active, .button.button-stable.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #e5e5e5; }
     .button.button-stable.button-clear {
       border-color: transparent;
@@ -7252,14 +7252,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-positive {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #387ef5;
     color: #fff; }
     .button.button-positive:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-positive.active, .button.button-positive.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #0c60ee; }
     .button.button-positive.button-clear {
       border-color: transparent;
@@ -7278,14 +7278,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-calm {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #11c1f3;
     color: #fff; }
     .button.button-calm:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-calm.active, .button.button-calm.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #0a9dc7; }
     .button.button-calm.button-clear {
       border-color: transparent;
@@ -7304,14 +7304,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-assertive {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #ef473a;
     color: #fff; }
     .button.button-assertive:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-assertive.active, .button.button-assertive.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #e42112; }
     .button.button-assertive.button-clear {
       border-color: transparent;
@@ -7330,14 +7330,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-balanced {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #33cd5f;
     color: #fff; }
     .button.button-balanced:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-balanced.active, .button.button-balanced.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #28a54c; }
     .button.button-balanced.button-clear {
       border-color: transparent;
@@ -7356,14 +7356,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-energized {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #ffc900;
     color: #fff; }
     .button.button-energized:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-energized.active, .button.button-energized.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #e6b500; }
     .button.button-energized.button-clear {
       border-color: transparent;
@@ -7382,14 +7382,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-royal {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #886aea;
     color: #fff; }
     .button.button-royal:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-royal.active, .button.button-royal.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #6b46e5; }
     .button.button-royal.button-clear {
       border-color: transparent;
@@ -7408,14 +7408,14 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-dark {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background-color: #444;
     color: #fff; }
     .button.button-dark:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-dark.active, .button.button-dark.activated {
-      border-color: #387ef5;
+      border-color: #00a5d2;
       background-color: #262626; }
     .button.button-dark.button-clear {
       border-color: transparent;
@@ -7483,7 +7483,7 @@ progress {
     border-color: transparent;
     background: none;
     box-shadow: none;
-    color: #387ef5; }
+    color: #00a5d2; }
   .button-clear.button-icon {
     border-color: transparent;
     background: none; }
@@ -7496,11 +7496,11 @@ progress {
   background: none;
   box-shadow: none; }
   .button-outline.button-outline {
-    border-color: #387ef5;
+    border-color: #00a5d2;
     background: transparent;
-    color: #387ef5; }
+    color: #00a5d2; }
     .button-outline.button-outline.active, .button-outline.button-outline.activated {
-      background-color: #387ef5;
+      background-color: #00a5d2;
       box-shadow: none;
       color: #fff; }
 
@@ -8331,27 +8331,27 @@ a.button {
   transition-duration: 0s; }
 
 .button.active, .button.activated {
-  background-color: #387ef5;
+  background-color: #00a5d2;
   box-shadow: none;
   color: #fff; }
 
 .button, .button.button-light, .button.button-stable, .button.button-positive, .button.button-calm, .button.button-assertive, .button.button-balanced, .button.button-energized, .button.button-royal, .button.button-dark {
-  border-color: #387ef5; }
+  border-color: #00a5d2; }
   .button.activated, .button.active, .button.button-light.activated, .button.button-light.active, .button.button-stable.activated, .button.button-stable.active, .button.button-positive.activated, .button.button-positive.active, .button.button-calm.activated, .button.button-calm.active, .button.button-assertive.activated, .button.button-assertive.active, .button.button-balanced.activated, .button.button-balanced.active, .button.button-energized.activated, .button.button-energized.active, .button.button-royal.activated, .button.button-royal.active, .button.button-dark.activated, .button.button-dark.active {
-    border-color: #387ef5; }
+    border-color: #00a5d2; }
 
 .button.button-light, .button.button-stable, .button.button-calm, .button.button-assertive, .button.button-balanced, .button.button-energized, .button.button-royal, .button.button-dark {
-  color: #387ef5; }
+  color: #00a5d2; }
 
 .button-clear, .button.button-clear {
-  color: #387ef5; }
+  color: #00a5d2; }
   .button-clear.activated, .button-clear.active, .button.button-clear.activated, .button.button-clear.active {
     background: none; }
 
 .button-outline, .button.button-outline {
-  border-color: #387ef5; }
+  border-color: #00a5d2; }
   .button-outline.activated, .button-outline.active, .button.button-outline.activated, .button.button-outline.active {
-    background-color: #387ef5; }
+    background-color: #00a5d2; }
 
 /**
  * Core styles for the app.
@@ -9471,16 +9471,6 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
 .padding mm-course-mod-description .card, .item .item-heading.padding mm-course-mod-description .card, .mm-grades-table .itemcenter .item-heading.padding mm-course-mod-description .card {
   margin-top: 0; }
 
-.mm-fileuploader-file-handler input {
-  position: absolute;
-  top: 0;
-  right: 0;
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0;
-  outline: none;
-  z-index: 100; }
-
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mm-grades-container {
@@ -9665,6 +9655,16 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
 .mm-site_mm_user-profile .mm-tab-handlers {
   padding-bottom: 16px; }
 
+.mm-fileuploader-file-handler input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0;
+  outline: none;
+  z-index: 100; }
+
 .mm-site_frontpage .mma-frontpage-item-container .item-media {
   min-height: 55px;
   padding-left: 54px; }
@@ -9743,8 +9743,39 @@ mm-course-mod-description .card .item, mm-course-mod-description .card .mm-grade
   width: 100%;
   text-align: center; }
 
+<<<<<<< HEAD
 .mm-site_coursesgrades .item .badge, .mm-site_coursesgrades .mm-grades-table .itemcenter .badge, .mm-grades-table .mm-site_coursesgrades .itemcenter .badge, .mm-site_coursesgrades .item .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-messages-date span, .mma-messages-date .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-messages-date span, .mma-messages-date .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item .mma-messages-unreadfrom span, .mma-messages-unreadfrom .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-messages-unreadfrom span, .mma-messages-unreadfrom .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-messages-unreadfrom span, .mma-messages-unreadfrom .mm-grades-table .mm-site_coursesgrades .itemcenter span, .mm-site_coursesgrades .item .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .item span, .mm-site_coursesgrades .mm-grades-table .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-site_coursesgrades .mm-grades-table .itemcenter span, .mm-grades-table .mm-site_coursesgrades .itemcenter .mma-chat-notice span, .mma-chat-notice .mm-grades-table .mm-site_coursesgrades .itemcenter span {
   right: 16px; }
+=======
+.mma-chat-notice {
+  text-align: center;
+  margin-top: 10px; }
+  .mma-chat-notice span {
+    white-space: normal; }
+
+.mma-chat-input-inset {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0; }
+
+.mma-chat-footer-note {
+  color: #444;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  width: 100%; }
+
+.mma-chat-send-form {
+  width: 100%; }
+
+.mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
+  margin: 0; }
+
+.mma-mod_chat-users-modal .item-complex .item-avatar, .mma-mod_chat-users-modal .item-complex .item-media, .mma-mod_chat-users-modal .item-complex .item-avatar-center {
+  padding-bottom: 0; }
+  .mma-mod_chat-users-modal .item-complex .item-avatar .tabs, .mma-mod_chat-users-modal .item-complex .item-media .tabs, .mma-mod_chat-users-modal .item-complex .item-avatar-center .tabs {
+    border: 0; }
+>>>>>>> refs/remotes/origin/master
 
 .mm-site_mod_assign div.latesubmission, .mm-site_mod_assign-submission div.latesubmission {
   background-color: #efcfcf; }
@@ -9917,6 +9948,7 @@ p.mma-mod-assign-warning {
   margin: 0;
   width: auto; }
 
+<<<<<<< HEAD
 .mma-chat-notice {
   text-align: center;
   margin-top: 10px; }
@@ -9958,6 +9990,8 @@ p.mma-mod-assign-warning {
     .mm-site_mod_choice .col:first-child {
       border-left: 0; } }
 
+=======
+>>>>>>> refs/remotes/origin/master
 .mma-forum-discussion-link {
   text-decoration: none; }
 
@@ -10181,6 +10215,21 @@ select.mma-mod_survey-select {
 .mma-mod_wiki-subwiki-picker .item.item-selected .icon, .mma-mod_wiki-subwiki-picker .mm-grades-table .item-selected.itemcenter .icon, .mm-grades-table .mma-mod_wiki-subwiki-picker .item-selected.itemcenter .icon {
   font-size: 24px; }
 
+<<<<<<< HEAD
+=======
+.mm-site_mod_choice .chart {
+  max-width: 400px;
+  margin: 0 auto; }
+@media (min-width: 767px) {
+  .mm-site_mod_choice .col {
+    border-left: 1px solid #ddd; }
+    .mm-site_mod_choice .col.item, .mm-site_mod_choice .mm-grades-table .col.itemcenter, .mm-grades-table .mm-site_mod_choice .col.itemcenter, .mm-site_mod_choice .col .chart-item {
+      margin-top: 0;
+      border-top: 0; }
+    .mm-site_mod_choice .col:first-child {
+      border-left: 0; } }
+
+>>>>>>> refs/remotes/origin/master
 .qbehaviour_deferredcbm_actual_percentage {
   font-weight: bold; }
 
@@ -10453,9 +10502,17 @@ select.mma-mod_survey-select {
   margin-top: -4px;
   margin-right: 7px; }
 
+.mma-qtype-match-container .item-select select, .mma-qtype-match-container .item-select .mm-select-fix {
+  padding: 0 36px 0 0;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column; }
+
 .button.button-icon, .button-icon {
   border-color: transparent;
-  color: #387ef5;
+  color: white;
   background-color: transparent; }
 
 .bar-side-menu {

@@ -1520,19 +1520,6 @@ mm-course-mod-description .card .item {
   margin-top: 0;
 }
 
-.mm-fileuploader-file-handler {
-    input {
-        position: absolute;
-        top: 0;
-        right: 0;
-        min-width: 100%;
-        min-height: 100%;
-        opacity: 0;
-        outline: none;
-        z-index: 100;
-    }
-}
-
 /* - User grades table (most of it extracted from MM1)
 -------------------------------------------------------------------------- */
 .mm-grades-container {
@@ -1838,6 +1825,23 @@ $bar-side-menu-text-color: $bar-content-text !default;
 .mm-site_mm_user-profile .mm-tab-handlers {
     padding-bottom: 16px;
 }
+<<<<<<< HEAD
+=======
+.mm-fileuploader-file-handler {
+    input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 0;
+        outline: none;
+        z-index: 100;
+    }
+}
+
+
+>>>>>>> refs/remotes/origin/master
 .mm-site_frontpage {
     .mma-frontpage-item-container .item-media {
         min-height: 55px;
@@ -1958,8 +1962,56 @@ $mma-messages-date-badge: "stable" !default;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .mm-site_coursesgrades .item .badge {
   right: 16px;
+=======
+$mma-chat-notice-badge: "stable" !default;
+
+// The notice displayed in the list.
+.mma-chat-notice {
+
+  text-align: center;
+  margin-top: 10px;
+
+  span {
+    @extend .badge;
+    @extend .badge-#{$mma-chat-notice-badge};
+    white-space: normal;
+  }
+}
+
+.mma-chat-input-inset {
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.mma-chat-footer-note {
+    color: $button-light-text;
+    font-size: $font-size-base;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.mma-chat-send-form {
+  width: 100%;
+}
+
+.mma-chat-reconnect-button, .button.mma-chat-reconnect-button {
+  margin: 0;
+}
+
+.mma-mod_chat-users-modal {
+  .item-complex .item-avatar {
+    padding-bottom: 0;
+
+    .tabs {
+      border: 0;
+    }
+  }
+>>>>>>> refs/remotes/origin/master
 }
 
 $mma-mod-assign-warning-color:      #c00 !default;
@@ -2230,6 +2282,7 @@ p.mma-mod-assign-warning {
   }
 }
 
+<<<<<<< HEAD
 $mma-chat-notice-badge: "stable" !default;
 
 // The notice displayed in the list.
@@ -2297,6 +2350,8 @@ $mma-chat-notice-badge: "stable" !default;
     }
   }
 }
+=======
+>>>>>>> refs/remotes/origin/master
 
 .mma-forum-discussion-link {
     text-decoration: none;
@@ -2581,6 +2636,30 @@ $mma-mod-wiki-subwiki-selected-background-color:   #eee !default;
   font-size: 24px;
 }
 
+<<<<<<< HEAD
+=======
+.mm-site_mod_choice {
+  .chart {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 767px) {
+    .col {
+      border-left: $item-border-width solid $item-default-border;
+
+      &.item, .chart-item {
+        margin-top: 0;
+        border-top: 0;
+      }
+
+      &:first-child {
+        border-left: 0;
+      }
+    }
+  }
+}
+>>>>>>> refs/remotes/origin/master
 
 $mma-qbehaviour-deferredcbm-judgementok-color:  #080 !default;
 $mma-qbehaviour-deferredcbm-slightly-color:     #600 !default;
@@ -3000,3 +3079,16 @@ $mma-qbehaviour-deferredcbm-confident-color:    #c00 !default;
   }
 }
 
+
+// Style match content a bit.
+.mma-qtype-match-container .item-select {
+  select,
+  .mm-select-fix {
+    padding: 0 36px 0 0;
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+  }
+}
