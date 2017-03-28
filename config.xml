@@ -4,19 +4,19 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "net.moodle.learn"
         versionCode = "3"
-        version   = "1.2">
-    <name>K-Learn</name>
+        version   = "3.2.1">
+    <name>eLearning@ADB</name>
 
     <description>
-        myelearn@ADB
+        eLearning@ADB Moodle Mobile App 
     </description>
 
-    <author href="http://www.km.adec-innovations.com/" email="gyver.gabito@amdatex.com">
-        Don Gyver Gabito
+    <author href="https://www.adb.org/" email="elearning@adb.org">
+        ADB Knowledge Sharing and Services Center
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>1.2</string>
+        <string>3.2.1</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
